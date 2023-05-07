@@ -1,0 +1,99 @@
+syntax = "proto3";
+
+package maa;
+
+enum RogueTheme {
+  UNSPECIFIC = 0;
+  Phantom = 1;
+  Mizuki = 2;
+}
+
+enum PhantomSquad {
+  Command = 0 [
+    (string_name) = "指挥分队"
+  ];
+  Colony = 1 [
+    (string_name) = "集群分队"
+  ];
+  Logistics = 2 [
+    (string_name) = "后勤分队"
+  ];
+  Spearhead = 3 [
+    (string_name) = "矛头分队"
+  ];
+  WarriorPioneer = 4 [
+    (string_name) = "突击战术分队"
+  ];
+  TankSupport = 5 [
+    (string_name) = "堡垒战术分队"
+  ];
+  SnipperMedic = 6 [
+    (string_name) = "远程战术分队"
+  ];
+  CasterSpecial = 7 [
+    (string_name) = "破坏战术分队"
+  ];
+  Research = 8 [
+    (string_name) = "研究分队"
+  ];
+  HSpec = 9 [
+    (string_name) = "高规格分队"
+  ];
+}
+
+enum MizukiSquad {
+  Command = 0 [
+    (string_name) = "指挥分队"
+  ];
+  Colony = 1 [
+    (string_name) = "集群分队"
+  ];
+  Logistics = 2 [
+    (string_name) = "后勤分队"
+  ];
+  Spearhead = 3 [
+    (string_name) = "矛头分队"
+  ];
+  WarriorPioneer = 4 [
+    (string_name) = "突击战术分队"
+  ];
+  TankSupport = 5 [
+    (string_name) = "堡垒战术分队"
+  ];
+  SnipperMedic = 6 [
+    (string_name) = "远程战术分队"
+  ];
+  CasterSpecial = 7 [
+    (string_name) = "破坏战术分队"
+  ];
+  Research = 8 [
+    (string_name) = "研究分队"
+  ];
+  HSpec = 9 [
+    (string_name) = "高规格分队"
+  ];
+  Collection = 10 [
+    (string_name) = "心胜于物分队"
+  ];
+  Dice = 11 [
+    (string_name) = "物尽其用分队"
+  ];
+  Hope = 12 [
+    (string_name) = "以人为本分队"
+  ];
+}
+
+enum RogueRole {
+  PWS = 0 [
+    (string_name) = "先手必胜"
+  ];
+  TCS = 1 [
+    (string_name) = "稳扎稳打"
+  ];
+  TSM = 2 [
+    (string_name) = "取长补短"
+  ];
+  Random = 3 [
+    (string_name) = "随心所欲"
+  ];
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package maa;
+
+message Penguin {
+  bool report = 1;
+  string id = 2;
+}
+
+message YiTuLiu {
+  bool report = 1;
+  string id = 2;
+}

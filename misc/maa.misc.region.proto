@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package maa;
+
+enum Client {
+  Official = 0;
+  Bilibili = 1;
+  YoStarEN = 2;
+  YoStarJP = 3;
+  YoStarKR = 4;
+  txwy = 5;
+}
+
+enum Server {
+  CN = 0;
+  US = 1;
+  JP = 2;
+  KR = 3;
+}

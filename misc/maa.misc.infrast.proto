@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package maa;
+
+enum Facility {
+  UNSPECIFIC = 0;
+  Mfg = 1;
+  Trade = 2;
+  Power = 3;
+  Control = 4;
+  Reception = 5;
+  Office = 6;
+  Dorm = 7;
+}
+
+enum DroneUse {
+  _NotUse = 0;
+  Money = 1;
+  SyntheticJade = 2;
+  CombatRecord = 3;
+  PureGold = 4;
+  OriginStone = 5;
+  Chip = 6;
+}
